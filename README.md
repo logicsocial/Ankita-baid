@@ -13,4 +13,8 @@
 ## 📈 Currently Working On
 - Improving problem-solving
 - Building small projects
+## 🚀 My Projects
 
+### 🧮 Calculator
+🔗 Live Demo:https://logicsocial.github.io/calculator-project/
+💻 Tech Used: HTML, CSS, JavaScript
