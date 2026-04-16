@@ -1,41 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ankita Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-<header>
-    <h1>Hi, I'm Ankita 👋</h1>
-    <p>Aspiring Web Developer</p>
-</header>
+    body {
+    font-family: Arial;
+    margin: 0;
+    background: #f0f2f5;
+}
 
-<section>
-    <h2>About Me</h2>
-    <p>I am a BCA student learning web development and building projects.</p>
-</section>
+header {
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript (Learning)</li>
-    </ul>
-</section>
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
 
-<section>
-    <h2>Projects</h2>
-    <p>🧮 Calculator Project</p>
-    <a href="https://your-username.github.io/calculator-project/" target="_blank">
-        View Project
-    </a>
-</section>
+.skills span {
+    display: inline-block;
+    background: #eee;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
 
-<footer>
-    <p>Made by Ankita</p>
-</footer>
+.project {
+    margin-top: 10px;
+}
 
-</body>
-</html>
+a {
+    text-decoration: none;
+    color: #4facfe;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
